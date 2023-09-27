@@ -1,0 +1,11 @@
+var firstName;
+var lastName;
+var fullName;
+var userId;
+var isActivated;
+firstName = "Golam";
+lastName = "Mostafa";
+fullName = firstName.concat(lastName);
+userId = 102;
+isActivated = true;
+console.log("User ".concat(userId, " is activated on ").concat(isActivated, " his first name: ").concat(firstName, " and ").concat(lastName, " so full  name: ").concat(fullName));
